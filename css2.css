@@ -1,0 +1,63 @@
+body{ 
+    background: #00ffd5; 
+    font-family: sans-serif; 
+    text-align: center; 
+   } 
+     
+   h1{ 
+    color: #fff; 
+   } 
+     
+   .ketengah{ 
+    margin: 10px auto; 
+    width: 1150px; 
+   }
+   .kotak{ 
+    background: goldenrod; 
+    width: 500px; 
+    float: left; 
+    height: 250px; 
+    margin: 30px; 
+   } 
+     
+   .gradient1 { 
+    background: linear-gradient(blue, yellow); /* Standard syntax */ 
+    background: -webkit-linear-gradient(blue, yellow); /* For Safari 5.1 to 
+   6.0 */ 
+    background: -o-linear-gradient(blue, yellow); /* For Opera 11.1 to 12.0 
+   */ 
+    background: -moz-linear-gradient(blue, yellow); /* For Firefox 3.6 to 15 
+   */ 
+   } 
+     
+   .gradient2 { 
+    background: linear-gradient(to right, blue , yellow, red); /* Standard 
+   syntax */ 
+    background: -webkit-linear-gradient(left, blue , yellow, red); /* For 
+   Safari 5.1 to 6.0 */ 
+    background: -o-linear-gradient(right, blue , yellow, red); /* For Opera 
+   11.1 to 12.0 */ 
+    background: -moz-linear-gradient(right, blue , yellow, red); /* For 
+   Firefox 3.6 to 15 */ 
+   } 
+     
+   .gradient3 {   
+          background: radial-gradient(white, yellow, blue); /* Standard syntax */ 
+          background: -webkit-radial-gradient(white, yellow, blue); /* Safari 5.1 
+   to 6.0 */ 
+          background: -o-radial-gradient(white, yellow, blue); /* For Opera 11.6 
+   to 12.0 */ 
+          background: -moz-radial-gradient(white, yellow, blue); /* For Firefox 
+   3.6 to 15 */ 
+   } 
+     
+   .gradient4 { 
+          background: radial-gradient(circle, red, yellow, goldenrod); /* Standard 
+   syntax */   
+          background: -webkit-radial-gradient(circle, red, yellow, goldenrod); /* 
+   Safari */ 
+          background: -o-radial-gradient(circle, red, yellow, goldenrod); /* Opera 
+   11.6 to 12.0 */ 
+          background: -moz-radial-gradient(circle, red, yellow, goldenrod); /* 
+   Firefox 3.6 to 15 */ 
+   }
